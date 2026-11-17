@@ -273,6 +273,39 @@ Ces éléments constituent des pistes d’évolution et ne sont pas présentés 
 - Intégration d’un modèle dans une application Streamlit.
 - Analyse critique des résultats expérimentaux.
 
+## Aperçu de l’application
+
+Les visuels ci-dessous ont été restaurés à partir des captures du
+rapport. La vue du résultat a été recomposée en format paysage
+pour faciliter sa présentation.
+
+### 1. Page d’accueil
+
+L’interface Streamlit permet de charger une radiographie
+aux formats JPG, JPEG ou PNG.
+
+<!-- Image relative au README situé à la racine du dépôt -->
+![Page d’accueil de l’application](./screenshots/01-accueil.png)
+
+### 2. Import d’une radiographie
+
+L’utilisateur sélectionne une image depuis son ordinateur
+avant de consulter la prédiction.
+
+![Sélection d’une radiographie](./screenshots/02-import-radiographie.png)
+
+### 3. Exemple de résultat
+
+L’application affiche l’image chargée, la classe prédite
+et le score retourné par le modèle.
+
+![Exemple de résultat de classification](./screenshots/03-resultat-16-9.png)
+
+> Le score affiché concerne cet exemple individuel.
+> Il ne représente pas l’accuracy globale du modèle.
+> Ce projet académique ne constitue pas un outil de diagnostic médical.
+
+
 ## Auteurs
 
 Projet réalisé par :
